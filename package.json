@@ -5,7 +5,10 @@
   "dependencies": {
     "@azure/msal-browser": "^5.25.0",
     "@azure/msal-react": "^5.7.2",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
     "@microsoft/signalr": "^10.0.11",
+    "@mui/material": "^9.4.0",
     "@reduxjs/toolkit": "^2.13.0",
     "@testing-library/dom": "^10.4.2",
     "@testing-library/jest-dom": "^6.9.1",
@@ -14,6 +17,8 @@
     "react": "^19.3.0",
     "react-dom": "^19.3.0",
     "react-redux": "^9.3.0",
+    "react-router": "^7.18.4",
+    "react-router-dom": "^7.18.4",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
@@ -40,5 +45,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "overrides": {
+    "react-is": "^18.3.1"
   }
 }
