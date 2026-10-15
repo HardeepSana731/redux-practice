@@ -63,8 +63,6 @@ export const TotalViewCount = () => {
         };
     }, []);
 
-    console.log("Selector state:", selector);
-
     return (
         <div>
             <h1>SignalR User Count</h1>
