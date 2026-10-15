@@ -1,6 +1,6 @@
 import { HubConnectionBuilder, LogLevel } from "@microsoft/signalr";
 import { useEffect } from "react";
-import { setCloakCount, setStoneCount, setWandCount } from "../features/SignalRMethods/DeathlyHallowsSlice";
+import { setCloakCount, setStoneCount, setWandCount } from "../features/SignalRMethods/deathlyHallowsSlice";
 import { useDispatch, useSelector } from "react-redux";
 
 
