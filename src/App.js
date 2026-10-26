@@ -5,6 +5,7 @@ import { Routes, Route, BrowserRouter } from 'react-router-dom';
 import GridTable from './routes/gridTable';
 import { TotalViewCount } from './routes/totalViewCount';
 import { DeathlyHallowsRace } from './routes/deathlyHallowsRace';
+import { SendMessage } from './routes/sendMessage';
 
 function App() {
   const state = useSelector((state) => state);
@@ -16,6 +17,7 @@ function App() {
         <Route path="/grid-table" element={<GridTable />} />
         <Route path="/message" element={<TotalViewCount />} />
         <Route path="/deathlyHallows" element={<DeathlyHallowsRace />} />
+        <Route path="/sendMessage" element={<SendMessage />} />
       </Routes>
     </BrowserRouter>
   );
